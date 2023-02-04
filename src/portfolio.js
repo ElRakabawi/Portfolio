@@ -8,6 +8,7 @@ import FCLauncher from './img/FC-Launcher.png'
 import MaisonPyramide from './img/MaisonPyramide.jpg'
 import Metacash from './img/Metacash.png'
 import Encounter from './img/Encounter.png'
+import Parasol from './img/Parasol.jpg'
 import You from './img/You.png'
 
 const header = {
@@ -64,14 +65,14 @@ const projects = [
     color: '#f1ac47'
   },
   {
-    name: 'Vue Serverless Chat app',
+    name: 'Soulthread',
     description:
-      'A VueJS/Vuex built with scaledrone, to provide serverless end-to-end chat service with image support.',
-    stack: ['Vue', 'Vuex', 'CSS3'],
-    sourceCode: 'https://github.com/ElRakabawi/chat-app',
-    livePreview: 'https://elrakabawi.github.io/chatapp/',
-    image: webChatImg,
-    color: '#8768c5'
+      'Soulthread is a Proof-of-Ownership Gatekeeping Bot for Discord. SoulThread connects identity and ownership of Crypto based holdings',
+    stack: ['Vue', 'MongoDB', 'Vercel'],
+    sourceCode: 'https://github.com/station0x/Soulthread-backend',
+    livePreview: 'https://soulthread.xyz',
+    image: Soulthread,
+    color: '#40ffcd'
   },
   {
     name: 'JetSwap',
@@ -82,16 +83,7 @@ const projects = [
     image: jetSwapImg,
     color: '#ffcb3e'
   },
-  {
-    name: 'Soulthread',
-    description:
-      'Soulthread is a Proof-of-Ownership Gatekeeping Bot for Discord. SoulThread connects identity and ownership of Crypto based holdings',
-    stack: ['Vue', 'MongoDB', 'Vercel'],
-    sourceCode: 'https://github.com/station0x/Soulthread-backend',
-    livePreview: 'https://soulthread.xyz',
-    image: Soulthread,
-    color: '#40ffcd'
-  },
+
   {
     name: 'Station0x',
     description:
@@ -112,6 +104,24 @@ const projects = [
     color: '#47f1b0'
   },
   {
+    name: 'Metacash',
+    description:
+      'MetaCash is a gasless wallet built on the Ethereum Network that allows users to send and receive crypto without paying gas fees.',
+    stack: ['Vue/Vuex', 'Cordova', 'MaterialUI'],
+    livePreview: 'https://medium.com/lamarkaz/dai-in-the-hands-of-all-8ed335879ae9',
+    image: Metacash,
+    color: '#5543be'
+  },
+  {
+    name: 'Parasol',
+    description:
+      'Parasol is an agile smart contract development environment built on the Ethereum Network, built using React & Redux.',
+    stack: ['Javascript'],
+    sourceCode: 'https://github.com/Lamarkaz/parasol/',
+    image: Parasol,
+    color: '#e60019'
+  },
+  {
     name: 'Maison Pyramide',
     description:
       'Maisone Pyramide is a prestegious Fashion House based in Paris, France. I built their website & E-Showroom using React.',
@@ -122,15 +132,15 @@ const projects = [
   },
 
   {
-    name: 'Metacash',
+    name: 'Vue Serverless Chat app',
     description:
-      'MetaCash is a gasless wallet built on the Ethereum Network that allows users to send and receive crypto without paying gas fees.',
-    stack: ['Vue/Vuex', 'Cordova', 'MaterialUI'],
-    livePreview: 'https://medium.com/lamarkaz/dai-in-the-hands-of-all-8ed335879ae9',
-    image: Metacash,
-    color: '#5543be'
+      'A VueJS/Vuex built with scaledrone, to provide serverless end-to-end chat service with image support.',
+    stack: ['Vue', 'Vuex', 'CSS3'],
+    sourceCode: 'https://github.com/ElRakabawi/chat-app',
+    livePreview: 'https://elrakabawi.github.io/chatapp/',
+    image: webChatImg,
+    color: '#8768c5'
   },
-
   {
     name: 'You',
     description:
