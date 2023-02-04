@@ -1,5 +1,5 @@
 .project {
-  padding: 2em;
+  padding: 2em 1.5em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
@@ -19,6 +19,7 @@
 
 .project__description {
   margin-top: 1em;
+  /* color: black; */
 }
 
 .project__stack {
@@ -40,6 +41,7 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+  padding-bottom: 15px;
 }
 
 .project__image {
@@ -48,7 +50,7 @@
   object-fit: contain;
   left: 0;
   top: 0;
-  transition: 0.5s;
+  transition: 0.1s;
   position: absolute;
   /* z-index: 3; */
 }

@@ -20,6 +20,7 @@
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #5E35B1;
+  --box-bg: #f5f5f5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -29,6 +30,7 @@
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;
+  --box-bg: #6f7caa;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -44,6 +46,7 @@ main {
 }
 
 .section__title {
+  margin-top: 4em;
   text-align: center;
   margin-bottom: 0.5em;
   text-transform: uppercase;
@@ -101,6 +104,7 @@ main {
 }
 
 .link--icon {
+  padding-bottom: 5px;
   color: var(--clr-fg);
   transition: 0.5s;
   background-color: transparent;
@@ -109,7 +113,7 @@ main {
 .btn {
   display: block;
   cursor: pointer;
-  padding: 0.8em 1.4em;
+  padding: 0.5em 1em;
   font-weight: 500;
   font-size: 0.9rem;
   text-transform: lowercase;
