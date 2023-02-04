@@ -45,7 +45,7 @@ main {
 
 .section__title {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
 }
 
@@ -55,6 +55,12 @@ main {
   display: block;
   margin: 0.15em auto 0;
   width: 1.5em;
+}
+
+.section__subtitle {
+  text-align: center;
+  margin-bottom: 2em;
+  text-transform: uppercase;
 }
 
 .center {

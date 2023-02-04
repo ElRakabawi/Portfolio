@@ -1,4 +1,14 @@
-import webChatImg from './img/web-chat.jpg'
+import webChatImg from './img/WebChat.jpg'
+import jetSwapImg from './img/Jetswap.png'
+import Invictus from './img/Invictus.png'
+import Soulthread from './img/Soulthread.png'
+import Volta from './img/Volta.png'
+import Station0x from './img/Station0x.png'
+import FCLauncher from './img/FC-Launcher.png'
+import MaisonPyramide from './img/MaisonPyramide.jpg'
+import Metacash from './img/Metacash.png'
+import Encounter from './img/Encounter.png'
+
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -12,11 +22,11 @@ const about = {
   lastName: 'ElRakabawi',
   role: 'Web3 Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    <span>I am a Web3 Front End Engineer with a passion for building beautiful, performant, and accessible web applications. I have a strong background in React, TypeScript, and Solidity. <br /><br /> I am also a strong believer in the power of open source and the community that surrounds it.</span>,
+  resume: 'https://elrakabawi.github.io/resume.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/elrakabawi',
+    github: 'https://github.com/elrakabawi',
   },
 }
 
@@ -24,29 +34,104 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Web Chat',
+    name: 'Vue Serverless Chat app',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A VueJS/Vuex built with scaledrone, to provide serverless end-to-end chat service with image support.',
+    stack: ['Vue', 'Vuex', 'CSS3'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: webChatImg
+    image: webChatImg,
+    color: '#8768c5'
   },
   {
-    name: 'Project 2',
+    name: 'JetSwap',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Jetswap is a decentralized exchange built on the Binance Smart Chain. It is a fork of PancakeSwap, the most popular DEX on the Binance Smart Chain.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: jetSwapImg,
+    color: '#ffcb3e'
   },
   {
-    name: 'Project 3',
+    name: 'Soulthread',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Soulthread is a Proof-of-Ownership Gatekeeping Bot for Discord. SoulThread connects identity and ownership of Crypto based holdings',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
+    livePreview: 'https://soulthread.xyz',
+    image: Soulthread,
+    color: '#40ffcd'
+  },
+  {
+    name: 'Volta Finance',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['React', 'TypeScript', 'TailwindCSS'],
+    sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: Volta,
+    color: '#60c0f4'
+  },
+  {
+    name: 'Station0x',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['Vue', 'EthersJs', 'Solidity', 'Vercel'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image: Station0x,
+    color: '#46f4b3'
+  },
+  {
+    name: 'FC Launcher',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['Tauri/Rust', 'Vue/Vuex', 'NodeJs', 'Express'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image: FCLauncher,
+    color: '#47f1b0'
+  },
+  {
+    name: 'Maison Pyramide',
+    description:
+      'Maisone Pyramide is a prestegious Fashion House based in Paris, France. I built their website & E-Showroom using React.',
+    stack: ['React', 'TypeScript', 'Redux'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image: MaisonPyramide,
+    color: '#f0c338'
+  },
+  {
+    name: 'Invictus Lords',
+    description:
+      'I built Invictus Lords from the ground up using Vue & Tailwind, I also authored, tested and deployed the smart contracts.',
+    stack: ['Vue', 'EthersJs', 'MongoDB', 'Vercel'],
+    sourceCode: 'https://invictuslords.com',
+    livePreview: 'https://github.com',
+    image: Invictus,
+    color: '#ff3e40'
+  },
+  {
+    name: 'Metacash',
+    description:
+      'MetaCash is a gasless wallet built on the Ethereum Network that allows users to send and receive crypto without paying gas fees.',
+    stack: ['Vue/Vuex', 'Cordova', 'MaterialUI'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image: Metacash,
+    color: '#5543be'
+  },
+  {
+    name: 'Encounter',
+    description:
+      'MetaCash is a gasless wallet built on the Ethereum Network that allows users to send and receive crypto without paying gas fees.',
+    stack: ['Vue/Vuex', 'Cordova', 'MaterialUI'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image: Encounter,
+    color: '#f1ac47'
   },
 ]
 
@@ -73,6 +158,12 @@ const skills = [
   {'Redux': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg'},
   {'Vue.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
   {'Tailwind CSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'},
+  { 'Firebase': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
+  { 'Next.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
+  { 'Webpack': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg' },
+  { 'Babel': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg' },
+  { 'Nuxt.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg' },
+  { 'Python': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
 ]
 
 const contact = {

@@ -14,7 +14,7 @@ const ProjectContainer = ({ project }) => {
   return (
   <div onMouseEnter={e => hoverEle(e, project.name)} onMouseLeave={e => hoverEle(e, '')}>
     {/* { hoveredEle === project.name ? ( */}
-      <div className='project'>
+      <div className='project' style={{backgroundColor: project.color}}>
         <img className={hoveredEle === project.name ? 'hideOp project__image' : 'displayOp project__image'} src={project.image} alt={project.name} />
         <h3>{project.name}</h3>
         <p className='project__description'>{project.description}</p>
