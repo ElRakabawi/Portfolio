@@ -21,9 +21,9 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   firstName: 'Muhammmed',
   lastName: 'ElRakabawi',
-  role: 'Web3 Front End Engineer',
+  role: 'Web3 Front-end Engineer',
   description:
-    <span>I am a Web3 Front End Engineer with a passion for building beautiful, performant, and accessible web applications. I have a strong background in React/Vue, TypeScript, and Solidity. <br /><br /> I am also a strong believer in the power of open source and the community that surrounds it.</span>,
+    <span>I am a Web3 Front-end Engineer with a passion for building beautiful, performant, and accessible web applications. I have a strong background in React/Vue, TypeScript, and Solidity. <br /><br /> I am also a strong believer in the power of open source and the community that surrounds it.</span>,
   resume: 'https://elrakabawi.eth.limo/resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/elrakabawi',
@@ -40,7 +40,7 @@ const projects = [
       'Volta Finance is a decentralized lending protocol built on Arbitrum One using React, Typescript and Tailwind.',
     stack: ['React', 'TypeScript', 'TailwindCSS'],
     // sourceCode: 'https://github.com',
-    livePreview: 'https://volta-finance.vercel.app/',
+    livePreview: 'https://volta.finance',
     image: Volta,
     color: '#60c0f4'
   },
@@ -175,7 +175,6 @@ const skills = [
   { 'Nuxt.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg' },
   { 'Firebase': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
   { 'Material UI': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg'},
-  { 'Unreal Engine': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg'},
 ]
 
 const contact = {
