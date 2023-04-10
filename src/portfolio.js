@@ -9,6 +9,7 @@ import MaisonPyramide from './img/MaisonPyramide.jpg'
 import Metacash from './img/Metacash.png'
 import Encounter from './img/Encounter.png'
 import Parasol from './img/Parasol.jpg'
+import Pokedex from './img/Pokedex.png'
 import You from './img/You.png'
 
 const header = {
@@ -83,7 +84,14 @@ const projects = [
     image: jetSwapImg,
     color: '#ffcb3e'
   },
-
+  {
+    name: 'PokeDex',
+    description: 'A Pokedex built with React, TypeScript, and TailwindCSS.',
+    stack: ['React', 'TypeScript', 'TailwindCSS'],
+    sourceCode: 'https://github.com/ElRakabawi/Lindy-Pokedex',
+    livePreview: 'https://lindy-pokedex.vercel.app/pokemon/3',
+    image: Pokedex,
+  },
   {
     name: 'Station0x',
     description:
