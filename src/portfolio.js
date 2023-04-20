@@ -24,15 +24,11 @@ const about = {
   role: 'Web3 Front-end Engineer',
   description:
     <p>
-      <p className='bio__p'>
-        I am a self-taught Web3 Front-end Engineer with a passion for Software Engineering since I was 11. I hold a B.sc. in Biotechnology and <br /> I love to write <a className='link footer__link' target='_black' href="https://github.com/stars/ElRakabawi/lists/bioinformatics"> python bioinformatics code in my free time </a>.
-      </p>
-      <p className='bio__p'>
-        I love building beautiful, performant, and accessible web applications. I have a strong background in React/Vue, TypeScript, and Solidity. 
-      </p>
-      <p className='bio__p'>
+      I am a self-taught Web3 Front-end Engineer with a passion for Software Engineering since I was 11. I hold a B.sc. in Biotechnology and <br /> I love to write <a className='link footer__link' target='_black' href="https://github.com/stars/ElRakabawi/lists/bioinformatics"> python bioinformatics code in my free time </a>.
+      <br /><br />
+      I love building beautiful, performant, and accessible web applications. I have a strong background in React/Vue, TypeScript, and Solidity. 
+      <br /><br />
       I co-founded two web3 startups, <a className='link footer__link' target='_black' href="https://github.com/station0x">Station0x</a> and <a className='link footer__link' target='_black' href="https://github.com/lamarkaz">Lamarkaz</a> and led their full-stack development. I&apos;ve also worked with many other startups and SMEs as a front-end developer.
-      </p>
     </p>,
   resume: 'https://elrakabawi.eth.limo/resume.pdf',
   social: {
