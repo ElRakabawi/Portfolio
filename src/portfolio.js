@@ -47,6 +47,7 @@ const projects = [
     stack: ['React', 'TypeScript', 'TailwindCSS'],
     // sourceCode: 'https://github.com',
     livePreview: 'https://volta.finance',
+    sourceCode: 'https://github.com/ElRakabawi/VoltaFinance',
     image: Volta,
     color: '#60c0f4'
   },
