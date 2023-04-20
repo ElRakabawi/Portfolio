@@ -1,3 +1,8 @@
 .contact {
   flex-direction: column;
 }
+
+.ice__text {
+  max-width: 500px;
+  margin-bottom: 20px;
+}

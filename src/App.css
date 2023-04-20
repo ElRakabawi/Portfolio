@@ -103,6 +103,10 @@ main {
   font-weight: 500;
 }
 
+.svg--nave {
+  color: var(--clr-fg);
+}
+
 .link--icon {
   padding-bottom: 5px;
   color: var(--clr-fg);

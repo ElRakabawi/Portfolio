@@ -8,6 +8,9 @@ const Contact = () => {
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Get in touch</h2>
       <p className='section__subtitle'>{title}</p>
+      <p className='ice__text'>To help break the ice, this is me in 2018 talking about Octopeth, a desktop store for decentralized applications frontend. [In Arabic]</p>
+      <iframe style={{ marginBottom: 25 }} width={600} height={315} src="https://www.youtube-nocookie.com/embed/0ffmgddu21I" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+
       <a href={`mailto:${contact.email}`}>
         <span type='button' className='btn btn--outline'>
           Email me
