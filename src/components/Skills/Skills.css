@@ -19,6 +19,20 @@
   border-color: rgba(0, 0, 0, 0.05);
 }
 
+.skill-box-dark {
+  width: 130px;
+  height: 125px;
+  padding: 22.5px 10px;
+  border-radius: 15px;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.skill-box-dark:hover {
+  background-color: var(--box-bg);
+  color: black;
+}
+
 .skill-box:hover {
   /* border-color: var(--clr-primary); */
   background-color: var(--box-bg);
