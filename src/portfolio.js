@@ -10,6 +10,7 @@ import Metacash from './img/Metacash.png'
 import Encounter from './img/Encounter.png'
 import Parasol from './img/Parasol.jpg'
 import Pokedex from './img/Pokedex.png'
+import Grace from './img/Grace.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -72,6 +73,17 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'Grace Protocol',
+    description:
+      'Grace is an L2-first cross-margin lending protocol that fairly distributes losses if they occur.',
+    stack: ['React', 'TypeScript', 'Shadcn/TailwindCSS', 'Vercel'],
+    // sourceCode: 'https://github.com',
+    livePreview: 'https://grace.loans',
+    sourceCode: 'https://github.com/graceprotocol',
+    image: Grace,
+    color: '#95f754',
+  },
   {
     name: 'Volta Finance',
     description:

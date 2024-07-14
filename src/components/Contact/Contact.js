@@ -10,7 +10,8 @@ const Contact = () => {
       <p className='section__subtitle'>{title}</p>
       <p className='ice__text'>
         To help break the ice, this is me in 2018 talking about Octopeth, a
-        desktop store for decentralized applications frontend. [In Arabic]
+        desktop store for decentralized applications discovery through
+        IPFS-hosted apps. [In Arabic]
       </p>
       <div className='iframe-container'>
         <iframe
