@@ -21,15 +21,47 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   firstName: 'Muhammmed',
   lastName: 'ElRakabawi',
-  role: 'Web3 Front-end Engineer',
-  description:
+  role: 'Web3 FE/FS Engineer',
+  description: (
     <p>
-      I am a self-taught Web3 Front-end Engineer with a passion for Software Engineering since I was 11. I hold a B.sc. in Biotechnology and <br /> I love to write <a className='link footer__link' target='_black' href="https://github.com/stars/ElRakabawi/lists/bioinformatics"> python bioinformatics code in my free time </a>.
-      <br /><br />
-      I love building beautiful, performant, and accessible web applications. I have a strong background in React/Vue, TypeScript, and Solidity. 
-      <br /><br />
-      I co-founded two web3 startups, <a className='link footer__link' target='_black' href="https://github.com/station0x">Station0x</a> and <a className='link footer__link' target='_black' href="https://github.com/lamarkaz">Lamarkaz</a> and led their full-stack development. I&apos;ve also worked with many other startups and SMEs as a front-end developer.
-    </p>,
+      I am a self-taught Web3 Front-end/Fullstack Engineer with a passion for
+      Software Engineering since I was 11. I hold a B.sc. in Biotechnology and{' '}
+      <br /> I love to write{' '}
+      <a
+        className='link footer__link'
+        target='_black'
+        href='https://github.com/stars/ElRakabawi/lists/bioinformatics'
+      >
+        {' '}
+        python bioinformatics code in my free time{' '}
+      </a>
+      .
+      <br />
+      <br />
+      I love building decentralized, beautiful, performant, and accessible web
+      applications. I have a strong background in Next/React/Vue, TypeScript,
+      Node and Solidity.
+      <br />
+      <br />I co-founded two web3 startups,{' '}
+      <a
+        className='link footer__link'
+        target='_black'
+        href='https://github.com/station0x'
+      >
+        Station0x
+      </a>{' '}
+      and{' '}
+      <a
+        className='link footer__link'
+        target='_black'
+        href='https://github.com/lamarkaz'
+      >
+        Lamarkaz
+      </a>{' '}
+      and led their full-stack development. I&apos;ve also worked with many
+      other startups and SMEs as a front-end developer.
+    </p>
+  ),
   resume: 'https://elrakabawi.eth.limo/resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/elrakabawi',
@@ -49,7 +81,7 @@ const projects = [
     livePreview: 'https://volta.finance',
     sourceCode: 'https://github.com/ElRakabawi/VoltaFinance',
     image: Volta,
-    color: '#60c0f4'
+    color: '#60c0f4',
   },
   {
     name: 'Invictus Lords',
@@ -59,7 +91,7 @@ const projects = [
     sourceCode: 'https://github.com/station0x/invictus-lords',
     livePreview: 'https://invictuslords.com',
     image: Invictus,
-    color: '#ff3e40'
+    color: '#ff3e40',
   },
   {
     name: 'Encounter',
@@ -69,7 +101,7 @@ const projects = [
     sourceCode: 'https://github.com/station0x/encounter',
     livePreview: 'https://encounter.station0x.com',
     image: Encounter,
-    color: '#f1ac47'
+    color: '#f1ac47',
   },
   {
     name: 'Soulthread',
@@ -79,7 +111,7 @@ const projects = [
     sourceCode: 'https://github.com/station0x/Soulthread-backend',
     livePreview: 'https://soulthread.xyz',
     image: Soulthread,
-    color: '#40ffcd'
+    color: '#40ffcd',
   },
   {
     name: 'JetSwap',
@@ -88,7 +120,7 @@ const projects = [
     stack: ['React', 'TypeScript', 'Solidity', 'TheGraph'],
     livePreview: 'https://jetswap.finance/',
     image: jetSwapImg,
-    color: '#ffcb3e'
+    color: '#ffcb3e',
   },
   {
     name: 'PokeDex',
@@ -106,7 +138,7 @@ const projects = [
     livePreview: 'https://station0x.com',
     sourceCode: 'https://github.com/station0x',
     image: Station0x,
-    color: '#46f4b3'
+    color: '#46f4b3',
   },
   {
     name: 'FC Launcher',
@@ -115,16 +147,17 @@ const projects = [
     stack: ['Tauri/Rust', 'Vue/Vuex', 'Firebase', 'Express'],
     sourceCode: 'https://github.com/station0x/FinalCypher-Launcher',
     image: FCLauncher,
-    color: '#47f1b0'
+    color: '#47f1b0',
   },
   {
     name: 'Metacash',
     description:
       'MetaCash is a gasless wallet built on the Ethereum Network that allows users to send and receive crypto without paying gas fees.',
     stack: ['Vue/Vuex', 'Cordova', 'MaterialUI'],
-    livePreview: 'https://medium.com/lamarkaz/dai-in-the-hands-of-all-8ed335879ae9',
+    livePreview:
+      'https://medium.com/lamarkaz/dai-in-the-hands-of-all-8ed335879ae9',
     image: Metacash,
-    color: '#5543be'
+    color: '#5543be',
   },
   {
     name: 'Parasol',
@@ -133,7 +166,7 @@ const projects = [
     stack: ['Javascript'],
     sourceCode: 'https://github.com/Lamarkaz/parasol/',
     image: Parasol,
-    color: '#e60019'
+    color: '#e60019',
   },
   {
     name: 'Maison Pyramide',
@@ -142,7 +175,7 @@ const projects = [
     stack: ['React', 'TypeScript', 'Redux'],
     livePreview: 'https://maisonpyramide.com',
     image: MaisonPyramide,
-    color: '#f0c338'
+    color: '#f0c338',
   },
 
   {
@@ -153,39 +186,99 @@ const projects = [
     sourceCode: 'https://github.com/ElRakabawi/chat-app',
     livePreview: 'https://elrakabawi.github.io/chatapp/',
     image: webChatImg,
-    color: '#8768c5'
-  }
+    color: '#8768c5',
+  },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  { 'React': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
-  { 'Vue.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
-  { 'TypeScript': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
-  { 'Solidity': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg'},
-  { 'JavaScript': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
-  { 'HTML': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
-  { 'CSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'},
-  { 'Python': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-  { 'Tailwind CSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'},
-  { 'MongoDB': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'},
-  { 'GraphQL': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg'},
-  { 'Kubernetes': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg'},
-  { 'Docker': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'},
-  { 'Node.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
-  { 'Express': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'},
-  { 'Git': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'},
-  { 'Next.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
-  { 'Redux': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg'},
-  { 'Nuxt.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg' },
-  { 'Firebase': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
-  { 'Material UI': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg'},
+  {
+    React:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+  },
+  {
+    'Vue.js':
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg',
+  },
+  {
+    TypeScript:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+  },
+  {
+    Solidity:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg',
+  },
+  {
+    JavaScript:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+  },
+  {
+    HTML: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+  },
+  {
+    CSS: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+  },
+  {
+    Python:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+  },
+  {
+    'Tailwind CSS':
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+  },
+  {
+    MongoDB:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+  },
+  {
+    GraphQL:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg',
+  },
+  {
+    Kubernetes:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg',
+  },
+  {
+    Docker:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+  },
+  {
+    'Node.js':
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+  },
+  {
+    Express:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+  },
+  {
+    Git: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+  },
+  {
+    'Next.js':
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
+  },
+  {
+    Redux:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
+  },
+  {
+    'Nuxt.js':
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg',
+  },
+  {
+    Firebase:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+  },
+  {
+    'Material UI':
+      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg',
+  },
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'elrakabawi@proton.me'
+  email: 'elrakabawi@proton.me',
 }
 
 export { header, about, projects, skills, contact }
